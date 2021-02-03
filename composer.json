@@ -1,0 +1,25 @@
+{
+    "name": "ultrawave/cobrancabb",
+    "description": "Cobranca Banco do Brasil",
+    "license": "MIT",
+    "authors": [{
+       "name": "Alexandre Custodio",
+       "email": "alexand8re.custodio@ultrawave.com.br"
+    }],
+    "require": {
+    	"php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/contracts": "^5.1",
+        "nesbot/carbon": "^1.29",
+        "illuminate/support": "^5.1",
+        "league/fractal": "^0.17.0",
+        "mikehaertl/php-tmpfile": "^1.1",
+        "jefersondaniel/novoboletophp": "0.5.*",
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+    	"psr-4": {
+      		"Ultrawave\\CobrancaBB\\": "src/"
+    	}
+  	}
+}
