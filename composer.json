@@ -8,13 +8,10 @@
     }],
     "require": {
     	"php": ">=7.0",
-        "illuminate/contracts": "^5.1",
         "nesbot/carbon": "^1.29",
-        "illuminate/support": "^5.1",
         "league/fractal": "^0.17.0",
         "mikehaertl/php-tmpfile": "^1.1",
-        "jefersondaniel/novoboletophp": "0.5.*",
-        "symfony/var-dumper": "^5.1"
+        "jefersondaniel/novoboletophp": "0.5.*"
     },
     "autoload": {
     	"psr-4": {
